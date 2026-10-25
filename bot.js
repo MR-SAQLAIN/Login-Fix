@@ -1019,20 +1019,40 @@ bot.on('callback_query', async (callbackQuery) => {
         switch (data) {
             case 'support':
     await editMenuCaption(
-`💖 🤲 الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ❤️
+`<blockquote>🤲 الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ❤️
 
-👑 VIP SUPPORT
+╭━━━〔 👑 𝐕𝐈𝐏 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 〕━━━╮
 
-💎 OWNER: MR SAQLAIN HACKER
+💠 𝐎𝐖𝐍𝐄𝐑 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍
+
+👑 OWNER: MR SAQLAIN HACKER
+
 📱 TELEGRAM: @Mr_Saqlain1
 
-🔗 📩 Contact Owner:
-https://t.me/Mr_Saqlain1
+╰━━━━━━━━━━━━━━━━━━╯
 
-✨ ALL PRAISES TO ALLAH 🤲`,
+💌 NEED HELP?
+Contact the owner directly for support.
+
+✨ الْحَمْدُ لِلَّهِ عَلَى كُلِّ حَالٍ 🤲
+
+💎 VIP ACCESS • PREMIUM SUPPORT 💎</blockquote>`,
         {
             inline_keyboard: [
-                [{ text: "↩️ Back", callback_data: "start", style: "primary" }]
+                [
+                    {
+                        text: "📩 CONTACT OWNER",
+                        url: "https://t.me/Mr_Saqlain1?text=𝐇𝐄𝐋𝐋𝐎_𝐒𝐀𝐐𝐋𝐀𝐈𝐍_𝐊𝐈𝐍𝐆👑🇵🇰",
+                        style: "primary"
+                    }
+                ],
+                [
+                    {
+                        text: "↩️ Back",
+                        callback_data: "start",
+                        style: "success"
+                    }
+                ]
             ]
         }
     );
