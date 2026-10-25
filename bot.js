@@ -1019,14 +1019,13 @@ bot.on('callback_query', async (callbackQuery) => {
         switch (data) {
             case 'support':
     await editMenuCaption(
-`<blockquote>🤲 الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ❤️
+`💖 🤲 الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ❤️
 
 ╭━━━〔 👑 𝐕𝐈𝐏 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 〕━━━╮
 
 💠 𝐎𝐖𝐍𝐄𝐑 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍
 
-👑 OWNER: MR SAQLAIN HACKER
-
+👑 OWNER: MR SAQLAIN
 📱 TELEGRAM: @Mr_Saqlain1
 
 ╰━━━━━━━━━━━━━━━━━━╯
@@ -1034,9 +1033,10 @@ bot.on('callback_query', async (callbackQuery) => {
 💌 NEED HELP?
 Contact the owner directly for support.
 
-✨ الْحَمْدُ لِلَّهِ عَلَى كُلِّ حَالٍ 🤲
+🔗 https://t.me/Mr_Saqlain1
 
-💎 VIP ACCESS • PREMIUM SUPPORT 💎</blockquote>`,
+✨ ALL PRAISES TO ALLAH 🤲
+💎 VIP ACCESS • PREMIUM SUPPORT 💎`,
         {
             inline_keyboard: [
                 [
